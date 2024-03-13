@@ -1,7 +1,7 @@
 .background-img {
     height: 100vw;
     width: 100vw;
-    background-image: url("./assets/coffeebackground.png");
+    background-image: url("./img/coffeebackground.png");
     background-repeat:no-repeat;
 }
 
