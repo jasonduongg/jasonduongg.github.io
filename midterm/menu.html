@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <link rel="stylesheet" href="styles_global.css">
+    <link rel="stylesheet" href="styles_nav.css">
+    <link rel="stylesheet" href="styles_menu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <style>
+        .hidden {
+            display: none;
+        }
+        body, input, textarea, button {
+            font-family: 'Comfortaa', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <div class="left">
+                <div class="icon-container"> <img src="/assets/sodoi-logo.png" alt="icon"></div>
+                <li><a href="/index.html"><h1 class="nav-header">SODOI TASTING HOUSE</h1></a></li>
+            </div>
+            <div class="right">
+                <li><a href="#">Online Store</a></li>
+                <li><a href="/menu.html">Menu</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">CART ICON</a></li>
+            </div>
+        </ul>
+    </nav>
+    <div class="page">
+        <div class="main-content">
+            <h1 class="main-header"> MENU</h1>
+            <div class="buttons">
+                <li><button class="menu-button" onclick="showDiv('div1')"><p class = "menu-button-text">Show Hand Drips</p></button></li>
+                <li><button class="menu-button" onclick="showDiv('div2')"><p class = "menu-button-text">Show Lattes</p></button></li>
+                <li><button class="menu-button" onclick="showDiv('div3')"><p class = "menu-button-text">Show Smoothies</p></button></li>
+                <li><button class="menu-button" onclick="showDiv('div4')"><p class = "menu-button-text">Show Seasonal</p></button></li>
+            </div>
+            <div id="div1" class="menu">
+                <div class="menu-item">
+                    <div class="menu-picture">
+                        <img src="/assets/matcha.png" alt="icon">
+                    </div>
+                    <div class="menu-text">
+                        <h3 class="menu-header"> My Dream, My Coffee </h3>
+                        <p class="menu-paragraph">To add a comment in CSS, you can use the /* */ syntax. Anything you put between /* and */ will be considered</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-picture">
+                        <img src="/assets/red-velvet.png" alt="icon">
+                    </div>
+                    <div class="menu-text">
+                        <h3 class="menu-header">Open Your Heart </h3>
+                        <p class="menu-paragraph">To add a comment in CSS, you can use the /* */ syntax. Anything you put between /* and */ will be considered</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-picture">
+                        <img src="/assets/pourover-1.png" alt="icon">
+                    </div>
+                    <div class="menu-text">
+                        <h3 class="menu-header"> Memory of Arashiyama</h3>
+                        <p class="menu-paragraph">To add a comment in CSS, you can use the /* */ syntax. Anything you put between /* and */ will be considered</p>
+                    </div>
+                </div>
+            </div>
+            <div id="div2" class="menu hidden">
+                <div class="menu-item">
+                    <div class="menu-picture">
+                        <img src="/assets/matcha.png" alt="icon">
+                    </div>
+                    <div class="menu-text">
+                        <h3 class="menu-header"> Latte 1</h3>
+                        <p class="menu-paragraph">To add a comment in CSS, you can use the /* */ syntax. Anything you put between /* and */ will be considered</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-picture">
+                        <img src="/assets/matcha.png" alt="icon">
+                    </div>
+                    <div class="menu-text">
+                        <h3 class="menu-header"> Latte 2</h3>
+                        <p class="menu-paragraph">To add a comment in CSS, you can use the /* */ syntax. Anything you put between /* and */ will be considered</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-picture">
+                        <img src="/assets/matcha.png" alt="icon">
+                    </div>
+                    <div class="menu-text">
+                        <h3 class="menu-header"> Latte 3</h3>
+                        <p class="menu-paragraph">To add a comment in CSS, you can use the /* */ syntax. Anything you put between /* and */ will be considered</p>
+                    </div>
+                </div>
+            </div>
+            <div id="div3" class="menu hidden">
+                <div class="menu-item">
+                    <div class="menu-picture">
+                        <img src="/assets/red-velvet.png" alt="icon">
+                    </div>
+                    <div class="menu-text">
+                        <h3 class="menu-header"> Smoothie 1</h3>
+                        <p class="menu-paragraph">To add a comment in CSS, you can use the /* */ syntax. Anything you put between /* and */ will be considered</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-picture">
+                        <img src="/assets/red-velvet.png" alt="icon">
+                    </div>
+                    <div class="menu-text">
+                        <h3 class="menu-header"> Smoothie 2</h3>
+                        <p class="menu-paragraph">To add a comment in CSS, you can use the /* */ syntax. Anything you put between /* and */ will be considered</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-picture">
+                        <img src="/assets/red-velvet.png" alt="icon">
+                    </div>
+                    <div class="menu-text">
+                        <h3 class="menu-header"> Smoothie 3</h3>
+                        <p class="menu-paragraph">To add a comment in CSS, you can use the /* */ syntax. Anything you put between /* and */ will be considered</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-picture">
+                        <img src="/assets/red-velvet.png" alt="icon">
+                    </div>
+                    <div class="menu-text">
+                        <h3 class="menu-header"> Smoothie 4</h3>
+                        <p class="menu-paragraph">To add a comment in CSS, you can use the /* */ syntax. Anything you put between /* and */ will be considered</p>
+                    </div>
+                </div>
+
+            </div>
+            <div id="div4" class="menu hidden">
+                <div class="menu-item">
+                    <div class="menu-picture">
+                        <img src="/assets/pourover-1.png" alt="icon">
+                    </div>
+                    <div class="menu-text">
+                        <h3 class="menu-header"> Seasonal 1</h3>
+                        <p class="menu-paragraph">To add a comment in CSS, you can use the /* */ syntax. Anything you put between /* and */ will be considered</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showDiv(divId) {
+            var divs = document.querySelectorAll('.menu');
+            divs.forEach(function(div) {
+                if (div.id === divId) {
+                    div.classList.remove('hidden');
+                } else {
+                    div.classList.add('hidden');
+                }
+            });
+        }
+    </script>
+</body>
+</html>

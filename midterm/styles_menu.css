@@ -1,0 +1,96 @@
+.body {
+    margin: 0;
+    background-color: #1E1E1E
+}
+
+.page {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-header {
+    margin-top: 10vh;
+    color: #DC5830;
+    font-size: 300%;
+    margin: 0;
+    padding-left: 1vw;
+
+}
+.main-content {
+    width: 80vw;
+
+}
+.buttons {
+    margin-top: 2vh;
+    display: flex;
+    list-style-type: none;
+}
+
+.menu-button {
+    margin: 10px;
+    color: black;
+    border-radius: 15px;
+    height: 40px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    white-space: nowrap;
+}
+
+.menu-button-text {
+    padding: 0;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+
+
+.menu {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 10vh;
+}
+
+.menu-item {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    height: auto;
+    width: 300px;
+}
+
+.menu-picture {
+    height: 275px;
+    width: 275px;
+}
+
+.menu-picture img {
+    height: 100%;
+    width: 100%;
+}
+
+.menu-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.menu-header {
+    margin: 0;
+    margin-top: 20px;
+    color: #DC5830;
+}
+
+.menu-paragraph {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #f9f9f9
+}
