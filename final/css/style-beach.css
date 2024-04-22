@@ -66,9 +66,14 @@ body {
 }
 
 #fish-text {
-    font-family: 'Jersey 10', sans-serif;
+    font-family: 'Abel', sans-serif;
     font-size: 150%;
 
+}
+
+#fish-container a:visited {
+    color: inherit; 
+    text-decoration: none; 
 }
 
 
