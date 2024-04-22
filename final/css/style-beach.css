@@ -1,0 +1,74 @@
+body {
+  
+}
+
+#sun {
+    position: relative;
+
+    width: 20vw; 
+    height: 20vw; 
+
+    transition: transform 0.5s linear;
+
+    left: 80vw;
+    top: 0vh;
+
+
+}
+
+#sand {
+    position: relative;
+    z-index: 1;
+    width: 200vw;
+    height: 40vh; 
+    transition: transform 0.5s linear;
+    top: 40vh;
+    left: -100vw;
+
+}
+
+#water2 {
+    position: relative;
+    z-index: 10;
+    width: 200vw;
+    height: 50vh; 
+
+    transition: transform 0.5s linear;
+    top: -7.5vh;
+    left: 75vw;
+}
+
+#blanket {
+    position: relative;
+    z-index: 2;
+    /* width: 20vw;
+    height: 5vh; */
+    top: 50vh;
+    left: -10vw;
+    content: url(../img/blanket.png);
+}
+
+#blanket:hover {
+    content: url('../img/blanket_man.png');
+}
+
+#fish-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 80vw;
+    top: -80vh;
+}
+
+#fish {
+    width: 10vw;
+    height: 10vh;
+}
+
+#fish-text {
+    font-family: 'Jersey 10', sans-serif;
+    font-size: 150%;
+
+}
+
+

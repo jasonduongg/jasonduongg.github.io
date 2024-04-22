@@ -1,0 +1,66 @@
+body {
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#intro {
+    position: relative;
+    left: -35vw;
+    font-family: 'Jersey 10', sans-serif;
+    font-size: 150%;
+
+}
+
+
+#sun {
+    position: relative;
+
+    width: 20vw; 
+    height: 20vw; 
+
+    transition: transform 0.5s linear;
+
+    left: 30vw;
+    top: -10vh;
+
+
+}
+
+#water {
+    position: relative;
+    width: 200%;
+    height: 40vh; 
+
+    transition: transform 0.5s linear;
+
+    top: 20vh;
+    left: -100vw;
+
+
+}
+
+#beach-button {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-self: flex-start;
+
+    left: 5vw;
+    top: -10vh;
+    font-family: 'Jersey 10', sans-serif;
+    font-size: 150%;
+
+}
+
+#beach-text:visited {
+    color: black;
+}
+
+
+#left {
+    margin-right: 1vw;
+}
